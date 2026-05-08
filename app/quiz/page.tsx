@@ -307,7 +307,7 @@ function QuizCardWrapper({
             boxShadow: "0 6px 20px rgba(255, 101, 81, 0.35)",
           }}
         >
-          {currentIndex + 1 >= 20 ? "Voir mes résultats 🎯" : "Question suivante →"}
+          {questionNumber + 1 >= 20 ? "Voir mes résultats 🎯" : "Question suivante →"}
         </button>
       )}
     </div>
